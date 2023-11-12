@@ -28,13 +28,13 @@ body {
 .section-title {
   width: 100%;
   height: 60px;
-  margin-top: 200px;
+  margin-top: 20%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: clamp(1rem, 5vw, 2.5rem);
   color: white;
   text-align: center;
 }
@@ -46,12 +46,12 @@ body {
 }
 
 .block {
-  margin: 200px 0;
+  margin: 20% 0;
 }
 
 .block img {
   width: 100%;
-  margin: 50px 0;
+  margin: 10% 0;
 }
 
 .title {
@@ -67,6 +67,15 @@ body {
   font-weight: 700;
   background-color: #7B6092;
   border-radius: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    width: 100%;
+    border-radius: 0;
+    justify-content: left;
+    margin-bottom: 30px;
+  }
 }
 
 .text {
@@ -85,9 +94,24 @@ body {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  .text .subtitle {
+    margin-top: 0;
+  }
+}
+
 .text p {
+  display: block;
   width: 65%;
   line-height: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .text p {
+    width: 90%;
+    line-height: 2rem;
+    margin-bottom: 15px;
+  }
 }
 
 .text li {
@@ -95,6 +119,15 @@ body {
   width: 65%;
   line-height: 3rem;
   margin-top: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .text li {
+    width: 90%;
+    line-height: 2rem;
+    margin-top: 20px;
+  }
 }
 
 .secondary-images {
@@ -106,6 +139,13 @@ body {
   width: 70%;
   border-radius: 10px;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .secondary-images img {
+    width: 90%;
+    margin-top: 5px;
+  }
 }
 
 a {

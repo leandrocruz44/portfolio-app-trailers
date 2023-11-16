@@ -17,7 +17,7 @@ body {
 
 .main-container {
   width: 100%;
-  background-color: #D7D7D7;
+  background-color: rgb(12, 12, 12);
   margin-bottom: 0;
 }
 
@@ -29,20 +29,23 @@ body {
   width: 100%;
   height: 60px;
   margin-top: 100px;
+  padding: 0 25px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   font-weight: 900;
   font-size: clamp(1rem, 5vw, 2.5rem);
-  color: black;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
   text-align: center;
-}
-
-.lines {
-  flex: 1 1 0;
-  height: 0;
-  border: 2px black solid;
+  letter-spacing: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -53,6 +56,10 @@ body {
 
 .block {
   margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .block img {
@@ -61,25 +68,41 @@ body {
 }
 
 .title {
-  width: 85%;
+  width: 70%;
   height: 100px;
   margin-bottom: 80px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   color: black;
   font-size: 1.8rem;
   font-weight: 700;
-  background-color: #AAAAAA;
-  border-radius: 0 20px 20px 0;
+  border-radius: 15px;
+  background-color: black;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+  letter-spacing: 10px;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
 }
 
 @media screen and (max-width: 600px) {
   .title {
-    width: 100%;
-    border-radius: 0;
-    justify-content: left;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
     margin-bottom: 30px;
     font-size: 1.2rem;
   }
@@ -90,7 +113,8 @@ body {
   height: auto;
   font-size: 1.2rem;
   text-align: justify;
-  color: black;
+  color: #fff;
+  text-shadow: 0 0 7px #bc13fe;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +156,7 @@ body {
   width: 65%;
   line-height: 3rem;
   margin-top: 20px;
-  text-align: left;
+  text-align: justify;
 }
 
 @media screen and (max-width: 600px) {

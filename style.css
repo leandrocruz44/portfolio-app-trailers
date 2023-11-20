@@ -60,16 +60,23 @@ header {
   border-bottom: 1px solid white;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    padding: 30px;
+  }
+}
+
 nav {
-  width: 400px;
+  width: fit-content;
   display: flex;
   justify-content: space-around;
-
+  gap: 50px;
 }
 
 a {
   color: white;
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 .selected {
@@ -109,6 +116,12 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .role {
+    font-size: 10px;
+  }
 }
 
 .section-title {

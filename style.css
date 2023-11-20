@@ -17,7 +17,7 @@ body {
 
 .main-container {
   width: 100%;
-  background-color: #0c0c0c;
+  background-color: #292929;
   margin-bottom: 0;
 }
 
@@ -48,6 +48,44 @@ body {
   font-size: clamp(20px, 8vw, 60px);
 }
 
+header {
+  display: flex;
+  height: 80px;
+  padding: 30px 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.selected {
+  color: #65c7ff;
+}
+
+a:hover {
+  text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #00a2ff,
+      0 0 45px #00a2ff,
+      0 0 55px #00a2ff;
+}
+
 .border {
   margin: auto;
   margin-top: 30px;
@@ -65,7 +103,8 @@ body {
   width: 90%;
   height: 50px;
   color: #fff;
-  text-shadow: 0 0 7px #bc13fe;  margin: auto;
+  text-shadow: 0 0 7px #bc13fe;  
+  margin: auto;
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
@@ -122,11 +161,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  color: black;
   font-size: 1.8rem;
   font-weight: 700;
   border-radius: 15px;
-  background-color: black;
   border: 0.2rem solid #fff;
   box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
@@ -157,7 +194,7 @@ body {
 .text {
   width: 100%;
   height: auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: justify;
   color: #fff;
   text-shadow: 0 0 7px #bc13fe;
@@ -231,10 +268,6 @@ body {
     border-radius: 0;
     margin-top: 5px;
   }
-}
-
-a {
-  color: blue;
 }
 
 footer {

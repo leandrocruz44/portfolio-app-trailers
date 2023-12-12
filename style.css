@@ -236,7 +236,7 @@ a:hover {
 
 .text p {
   display: block;
-  width: 65%;
+  width: 45%;
   line-height: 3rem;
 }
 
@@ -250,7 +250,7 @@ a:hover {
 
 .text li {
   list-style-type: disc;
-  width: 65%;
+  width: 45%;
   line-height: 3rem;
   margin-top: 20px;
   text-align: justify;

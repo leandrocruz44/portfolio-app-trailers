@@ -48,6 +48,10 @@ body {
   font-size: clamp(20px, 8vw, 60px);
 }
 
+em {
+  font-weight: bolder;
+}
+
 header {
   display: flex;
   height: 80px;
@@ -75,7 +79,6 @@ nav {
 
 a {
   color: white;
-  text-decoration: none;
   text-wrap: nowrap;
 }
 
@@ -208,8 +211,7 @@ a:hover {
 .text {
   width: 100%;
   height: auto;
-  font-size: 1rem;
-  text-align: justify;
+  font-size: 1.1rem;
   color: #fff;
   text-shadow: 0 0 7px #bc13fe;
   display: flex;

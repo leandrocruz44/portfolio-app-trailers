@@ -75,7 +75,7 @@
           <p>
             Utilizei a metodologia Design Thinking, tendo como base as cinco fases: Empatizar, Definição, Ideação, Prototipagem e Testes. <br>
             De acordo com a necessidade, realizei iterações, retornando fases para fazer ajustes após novas descobertas. <br>
-            Ao final do projeto, um protótipo de alta-fidelidade foi criado para simular as funcionalidades projetadas para o app.
+            Ao final do projeto, criei um protótipo de alta-fidelidade para simular as funcionalidades projetadas para o app.
           </p>
         </div>
         <div class="block">
@@ -96,14 +96,17 @@
         </div>
         <div class="text">
           <p>
-            Realizei entrevistas com cinco usuários em potencial que possuem as seguintes características:
+            Realizei entrevistas com usuários em potencial para descobrir seus hábitos em relação ao consumo de filmes e suas interações com plataformas voltadas a esse tipo de entretenimento.
+          </p><br>
+          <p>
+            Foram entrevistados cinco participantes com a seguintes características:
           </p>
           <li>Idades entre 28 e 61 anos</li>
           <li>Diferentes graus de proficiência com tecnologia</li>
           <li>Diferentes graus de interesse por cinema</li>
           <br>
           <p>
-            Com as informações e opiniões coletadas, e com as impressões obtidas pela observação da postura e atitude dos participantes durante a entrevista, foram criados <em>Mapas de Empatia</em> que auxiliaram identificação de dois grupos de usuários e na criação de suas respectivas Personas.
+            Com as informações e opiniões coletadas, as impressões obtidas pela observação da postura dos participantes durante a entrevista, foram criados <em>Mapas de Empatia</em> que auxiliaram identificação de dois grupos de usuários e na criação de suas respectivas Personas.
           </p>
         </div>
         <div class="text">
@@ -119,7 +122,7 @@
             Sintetizando as informações extraídas nas entrevistas:
           </p>
           <li>
-            O grupo dos consumidores casuais diz não ter disposição para pesquisar lançamentos por se sentirem <em>sobrecarregados</em> com a quantidade de opções disponíveis, pois a principal fonte de trailers, o Youtube, é um “oceano de vídeos”. Por isso tem um <em>relaciomaneto passivo</em> com esse tipo de conteúdo.
+            O grupo dos consumidores casuais diz não ter disposição para pesquisar lançamentos por se sentirem <em>sobrecarregados</em> com a quantidade de opções disponíveis. O Youtube, que é um “oceano de vídeos”, não facilita nessa busca. Por isso esse grupo tem um <em>relaciomaneto passivo</em> com esse tipo de conteúdo.
           </li>
           <li>
             Um entrevistado do segundo grupo (cinéfilos), mencionou que sente <em>falta de um local para discussões</em> mais aprofundadas sobre filmes (realiza essa atividade no Reddit, porém em inglês).
@@ -167,6 +170,11 @@
           </p>
         </div>
       </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <div>IDEAÇÃO</div>
+      </div>
       <div class="block">
         <div class="title">
           HOW MIGHT WE
@@ -179,16 +187,73 @@
             Como podemos simplificar o processo de obtenção das preferências dos usuário para fazer a análise dessas informações?
           </li>
           <li>
-            Como podemos fazer com que as funções do aplicativo estejam ao alcance do usuário de forma intuitiva?
+            Como podemos oferecer formas de interação entre os usuários?
           </li>
           <li>
-            Como podemos podemos integrar o oferecimento de ingressos com os trailers?
+            Como podemos podemos integrar venda de ingressos com os trailers?
           </li>
           <li>
             Como podemos oferecer aos usuários recomendações além dos filmes disponíveis nos cinemas?
           </li>
+        </div>
+      </div>
+      <div class="block">
+        <div class="title">
+          STORYBOARDS
+        </div>
+        <div class="text">
+          <p>
+            Elaborei dois storyboards para o projeto. Um para simular como o usuário irá utilizar o aplicativo (Big Picture), e outro para mostrar principal o fluxo de usuário (Close-Up).
+          </p>
+        </div>
+        <div class="text">
+          <p class="subtitle">
+            Storyboard Big Picture:
+          </p>
+        </div>
+        <div class="secondary-images">
+          <img src="./Images/Storyboard - Big Picture - [AppTrailers].jpg" alt="Storyboard Big Picture">
+        </div>
+        <div class="text">
+          <p class="subtitle">
+            Storyboard Close-Up:
+          </p>
+        </div>
+        <div class="secondary-images">
+          <img src="./Images/Storyboard - Close-up - [AppTrailers].jpg" alt="Storyboard Close-Up">
+        </div>
+      </div>
+      <div class="block">
+        <div class="title">
+          JORNADA DE USUÁRIO
+        </div>
+        <div class="text">
+          <p>
+            Criei uma Jornada de Usuário (User Journey) baseada nas informações da pesquisa e insights sobre a <em>persona Laura</em>. <br>
+          </p>
+        </div>
+        <div class="text">
+          <p class="subtitle">
+            Jornada de Usuário:
+          </p>
+        </div>
+        <div class="secondary-images">
+          <img src="./Images/User Journey Map [Laura Magliori].jpg" alt="Jornmada de Usuário">
+        </div>
+      </div>
+      <div class="block">
+        <div class="title">
+          DECISÕES
+        </div>
+        <div class="text">
+          <p>
+            Após a fase de Ideação e cenários sendo formados para a criação de um app que atendesse a necessidade dos usuários, minhas decisões foram as seguintes:      
+          </p><br>
           <li>
-            Como podemos tornar os fóruns um ambiente que o usuário sinta vontade engajar com as discussões? 
+            Além de disponibilizar filmes como opções para o usuário selecionar suas preferências, <em>artistas</em> e <em>gêneros de filmes</em> também ajudarão na composição das recomendações.
+          </li>
+          <li>
+            Um fórum para discussões sobre os mais diversos assuntos sobre cinema será incluído no projeto.
           </li>
         </div>
       </div>
@@ -217,7 +282,7 @@
         </div>
         <div class="text">
           <p>
-            A arquitetura da informação do aplicativo foi pensada para que os usuários pudessem acessar as informações em poucos passos e utilizar as funcionalidades do aplicativo sem maiores problemas.
+            A arquitetura da informação do aplicativo foi pensada para que os usuários pudessem acessar as informações em poucos passos e utilizar as funcionalidades do aplicativo de forma intuitiva.
           </p>
         </div>
         <picture>
@@ -432,8 +497,8 @@
           </p>
         </div>
         <picture>
-          <source media="(max-width: 600px)" srcset="./Images/Iterações-small.png">
-          <img src="./Images/Iterações.jpg" alt="Iterações">
+          <source media="(max-width: 600px)" srcset="./Images/iteracoes(small).png">
+          <img src="./Images/iteracoes.jpg" alt="Iterações">
         </picture>
       </div>
       <div class="block">
@@ -460,8 +525,8 @@
           DESIGN FINAL
         </div>
         <picture>
-          <source media="(max-width: 600px)" srcset="./Images/Design-final-small.png">
-          <img src="./Images/Imagens Design Final.jpg" alt="Design final">
+          <source media="(max-width: 600px)" srcset="./Images/design_final_small.jpg">
+          <img src="./Images/design_final.jpg" alt="Design final">
         </picture>
       </div>
       <div class="block">
@@ -481,7 +546,7 @@
       <div class="block">
         <div class="text">
           <p>
-            O projeto foi muito enriquecedor. Me ensinou que a pesquisa é uma das principais etapas de todo o processo de design de um produto. Testar esse produto com usuários também foi muito importante para que eu pudesse enxergar que diferentes perspectivas podem trazer grandes observações, que passariam despercebidas sem essa etapa do processo.
+            O projeto foi muito enriquecedor. Me ensinou que a pesquisa é uma das principais etapas de todo o processo de design de um produto. Testar esse produto com usuários também foi muito importante para que eu pudesse enxergar que diferentes perspectivas podem trazer observações interessantes, que passariam despercebidas sem essa etapa do processo.
           </p>
           <p>
             Nesse projeto também aprendi o básico da ferramenta Figma, o que se provou extremamente útil para que fosse possível tornar minhas ideias tangíveis na tela do computador.

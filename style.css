@@ -17,7 +17,7 @@ body {
 
 .main-container {
   width: 100%;
-  background-color: #292929;
+  background-color: #464646;
   margin-bottom: 0;
 }
 
@@ -60,8 +60,7 @@ header {
   align-items: center;
   color: white;
   font-size: 15px;
-  background-color: black;
-  border-bottom: 1px solid white;
+  background-color: rgb(114, 114, 114);
 }
 
 @media screen and (max-width: 800px) {
@@ -79,7 +78,9 @@ nav {
 
 a {
   color: white;
+  text-decoration: none;
   text-wrap: nowrap;
+  cursor: default;
 }
 
 .selected {
@@ -88,12 +89,18 @@ a {
 
 a:hover {
   text-shadow:
-      0 0 2px #fff,
-      0 0 4px #fff,
-      0 0 6px #fff,
-      0 0 10px #00a2ff,
-      0 0 45px #00a2ff,
-      0 0 55px #00a2ff;
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #00a2ff,
+    0 0 45px #00a2ff,
+    0 0 55px #00a2ff;
+  cursor: pointer;
+}
+
+.selected:hover {
+  text-shadow: none;
+  cursor: default;
 }
 
 .border {
@@ -113,7 +120,6 @@ a:hover {
   width: 90%;
   height: 50px;
   color: #fff;
-  text-shadow: 0 0 7px #bc13fe;  
   margin: auto;
   margin-top: 10px;
   display: flex;
@@ -182,11 +188,12 @@ a:hover {
   font-weight: 700;
   border-radius: 15px;
   border: 0.2rem solid #fff;
-  box-shadow: 0 0 .2rem #fff,
-              0 0 .2rem #fff,
-              0 0 2rem #bc13fe,
-              0 0 0.8rem #bc13fe,
-              inset 0 0 1.3rem #bc13fe;
+  box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
   letter-spacing: 10px;
   color: #fff;
   text-shadow:
@@ -213,7 +220,6 @@ a:hover {
   height: auto;
   font-size: 1.1rem;
   color: #fff;
-  text-shadow: 0 0 7px #bc13fe;
   display: flex;
   flex-direction: column;
   justify-content: center;

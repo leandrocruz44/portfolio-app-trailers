@@ -17,8 +17,8 @@ body {
 
 .main-container {
   width: 100%;
-  background-color: #464646;
   margin-bottom: 0;
+  background-image: linear-gradient(-40deg, #464646, #a0a0a0);
 }
 
 .hero-image {
@@ -60,7 +60,6 @@ header {
   align-items: center;
   color: white;
   font-size: 15px;
-  background-color: rgb(114, 114, 114);
 }
 
 @media screen and (max-width: 800px) {
@@ -92,9 +91,9 @@ a:hover {
     0 0 2px #fff,
     0 0 4px #fff,
     0 0 6px #fff,
-    0 0 10px #00a2ff,
-    0 0 45px #00a2ff,
-    0 0 55px #00a2ff;
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe;
   cursor: pointer;
 }
 
@@ -108,11 +107,12 @@ a:hover {
   margin-top: 30px;
   width: 90%;
   border: 0.2rem solid #fff;
-  box-shadow: 0 0 .2rem #fff,
-              0 0 .2rem #fff,
-              0 0 2rem #bc13fe,
-              0 0 0.8rem #bc13fe,
-              inset 0 0 1.3rem #bc13fe;
+  box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
   border-radius: 5px;
 }
 
